@@ -1,0 +1,58 @@
+main{
+    background: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    color: #61dafb;
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+main p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.first-steps-buttons{
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.first-steps-buttons button{
+    color: #282c34;
+    background: #61dafb;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.first-steps-buttons button:hover{
+    background-color: white;
+}
+
+.take-tutorial{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.take-tutorial span, .take-tutorial svg{
+    color: #61dafb;
+    font-weight: 300;
+    transition: all .3s ease;
+    font-size: 1.2rem;
+}
+
+.take-tutorial:hover span, .take-tutorial:hover svg{
+    color: white;
+}
